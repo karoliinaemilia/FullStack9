@@ -90,7 +90,7 @@ export const DiagnosisSelection = ({
     setFieldTouched(field, true);
     setFieldValue(field, data.value);
   };
-
+ 
   const stateOptions = diagnoses.map(diagnosis => ({
     key: diagnosis.code,
     text: `${diagnosis.name} (${diagnosis.code})`,

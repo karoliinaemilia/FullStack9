@@ -6,5 +6,6 @@ Content-type: application/json
     "dateOfBirth": "1997-08-15",
     "ssn": "ss",
     "gender": "female",
-    "occupation": "student"
+    "occupation": "student",
+    "entries": []
 }
